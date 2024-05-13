@@ -6,7 +6,8 @@
 
 @if (Model is null)
 {
-    <p class="text-danger">blog not found @Title :( </p>
+    @* <p class="text-danger">blog not found @Title :( </p> *@
+    <RadzenProgressBarCircular ProgressBarStyle="ProgressBarStyle.Primary" Value="100" ShowValue="false" Mode="ProgressBarMode.Indeterminate" JustifyContent="JustifyContent.Center" />
 }
 else
 {
